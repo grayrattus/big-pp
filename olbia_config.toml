@@ -1,4 +1,4 @@
 title=Olbia gallery
-templates=templates/mainTemplate.sh templates/smallImagesPartialTemplate.sh templates/bigImagePartial.sh templates/bigImagePartial.sh templates/smallImagesPartialTemplate.sh  templates/bigImagePartial.sh templates/bigImagePartial.sh templates/bigImagePartial.sh templates/footer.sh
+templates=templates/mainTemplate.sh templates/smallImagesPartialTemplate.sh templates/bigImagePartial.sh templates/bigImagePartial.sh templates/smallImagesPartialTemplate.sh templates/bigImagePartial.sh templates/footer.sh
 imagesDirectory=../olbia-trip
 encrypted=TRUE
