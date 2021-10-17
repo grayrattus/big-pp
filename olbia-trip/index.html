@@ -1,0 +1,269 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://unpkg.com/openpgp@5.0.0/dist/openpgp.js" ></script>
+  <script src="https://cdn.jsdelivr.net/npm/exifr/dist/lite.umd.js"></script>
+
+  <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+  <title>Olbia</title>
+</head>
+<body>
+	<style>
+	  [data-title]::before {
+	    content: attr(data-title) " ";
+	    font-size: 2em;
+	    text-align: center;
+	    display: block;
+	    margin: 1em;
+	  }
+	  [data-description]::after {
+	    content: attr(data-description) " ";
+	    margin: 0.5em;
+	    display: block;
+	  }
+	  .small-images-partial-template {
+	    display: flex;
+	    justify-content: center;
+	    flex-direction: column;
+	    align-items: center;
+	  }
+	</style>
+<div class="grid">
+      <div class="small-images-partial-template"><img id="20210716_150818.jpg.gpg" style="max-height: 100vh;"/></div>
+      <div class="small-images-partial-template"><img id="20210716_170611.jpg.gpg" style="max-height: 100vh;"/></div>
+</div>
+<div class="grid">
+      <div class="small-images-partial-template"><img id="20210716_204000.jpg.gpg" style="max-height: 100vh;"/></div>
+      <div class="small-images-partial-template"><img id="20210717_120141.jpg.gpg" style="max-height: 100vh;"/></div>
+</div>
+</div>
+	<style>
+	  .big-image-partial[data-title]::before {
+	    content: attr(data-title) " ";
+	    font-size: 2em;
+	    text-align: center;
+	    display: block;
+	    margin: 1em;
+	    position: absolute;
+	    top: 0;
+	    width: 80vw;
+	    background-color: rgba(255,255,255,0.4);
+	  }
+	  .big-image-partial[data-description]::after {
+	    content: attr(data-description) " ";
+	    margin: 0.5em;
+	    display: block;
+	    width: 80vw;
+	  }
+	  .big-image-partial {
+	    display: flex;
+	    justify-content: center;
+	    flex-direction: column;
+	    align-items: center;
+	    position: relative;
+	  }
+	  .big-image-partial img {
+	    width: 80vw;
+	  }
+	</style>
+<div>
+      <div class="grid big-image-partial"><img id="20210717_125557.jpg.gpg" /></div>
+</div>
+	<style>
+	  .big-image-partial[data-title]::before {
+	    content: attr(data-title) " ";
+	    font-size: 2em;
+	    text-align: center;
+	    display: block;
+	    margin: 1em;
+	    position: absolute;
+	    top: 0;
+	    width: 80vw;
+	    background-color: rgba(255,255,255,0.4);
+	  }
+	  .big-image-partial[data-description]::after {
+	    content: attr(data-description) " ";
+	    margin: 0.5em;
+	    display: block;
+	    width: 80vw;
+	  }
+	  .big-image-partial {
+	    display: flex;
+	    justify-content: center;
+	    flex-direction: column;
+	    align-items: center;
+	    position: relative;
+	  }
+	  .big-image-partial img {
+	    width: 80vw;
+	  }
+	</style>
+<div>
+      <div class="grid big-image-partial"><img id="20210718_090712.jpg.gpg" /></div>
+</div>
+	<style>
+	  [data-title]::before {
+	    content: attr(data-title) " ";
+	    font-size: 2em;
+	    text-align: center;
+	    display: block;
+	    margin: 1em;
+	  }
+	  [data-description]::after {
+	    content: attr(data-description) " ";
+	    margin: 0.5em;
+	    display: block;
+	  }
+	  .small-images-partial-template {
+	    display: flex;
+	    justify-content: center;
+	    flex-direction: column;
+	    align-items: center;
+	  }
+	</style>
+<div class="grid">
+      <div class="small-images-partial-template"><img id="20210718_123000.jpg.gpg" style="max-height: 100vh;"/></div>
+      <div class="small-images-partial-template"><img id="20210718_124022.jpg.gpg" style="max-height: 100vh;"/></div>
+</div>
+<div class="grid">
+      <div class="small-images-partial-template"><img id="20210718_124158.jpg.gpg" style="max-height: 100vh;"/></div>
+      <div class="small-images-partial-template"><img id="bus.jpg.gpg" style="max-height: 100vh;"/></div>
+</div>
+</div>
+	<style>
+	  .big-image-partial[data-title]::before {
+	    content: attr(data-title) " ";
+	    font-size: 2em;
+	    text-align: center;
+	    display: block;
+	    margin: 1em;
+	    position: absolute;
+	    top: 0;
+	    width: 80vw;
+	    background-color: rgba(255,255,255,0.4);
+	  }
+	  .big-image-partial[data-description]::after {
+	    content: attr(data-description) " ";
+	    margin: 0.5em;
+	    display: block;
+	    width: 80vw;
+	  }
+	  .big-image-partial {
+	    display: flex;
+	    justify-content: center;
+	    flex-direction: column;
+	    align-items: center;
+	    position: relative;
+	  }
+	  .big-image-partial img {
+	    width: 80vw;
+	  }
+	</style>
+<div>
+      <div class="grid big-image-partial"><img id="cactus.jpg.gpg" /></div>
+</div>
+	<style>
+	  .big-image-partial[data-title]::before {
+	    content: attr(data-title) " ";
+	    font-size: 2em;
+	    text-align: center;
+	    display: block;
+	    margin: 1em;
+	    position: absolute;
+	    top: 0;
+	    width: 80vw;
+	    background-color: rgba(255,255,255,0.4);
+	  }
+	  .big-image-partial[data-description]::after {
+	    content: attr(data-description) " ";
+	    margin: 0.5em;
+	    display: block;
+	    width: 80vw;
+	  }
+	  .big-image-partial {
+	    display: flex;
+	    justify-content: center;
+	    flex-direction: column;
+	    align-items: center;
+	    position: relative;
+	  }
+	  .big-image-partial img {
+	    width: 80vw;
+	  }
+	</style>
+<div>
+      <div class="grid big-image-partial"><img id="high-life.jpg.gpg" /></div>
+</div>
+	<style>
+	  .big-image-partial[data-title]::before {
+	    content: attr(data-title) " ";
+	    font-size: 2em;
+	    text-align: center;
+	    display: block;
+	    margin: 1em;
+	    position: absolute;
+	    top: 0;
+	    width: 80vw;
+	    background-color: rgba(255,255,255,0.4);
+	  }
+	  .big-image-partial[data-description]::after {
+	    content: attr(data-description) " ";
+	    margin: 0.5em;
+	    display: block;
+	    width: 80vw;
+	  }
+	  .big-image-partial {
+	    display: flex;
+	    justify-content: center;
+	    flex-direction: column;
+	    align-items: center;
+	    position: relative;
+	  }
+	  .big-image-partial img {
+	    width: 80vw;
+	  }
+	</style>
+<div>
+      <div class="grid big-image-partial"><img id="swang.jpg.gpg" /></div>
+</div>
+  <script type="module">
+  const password = prompt("To view gallery type password");
+(async () => {
+  "20210716_150818.jpg.gpg 20210716_170611.jpg.gpg 20210716_204000.jpg.gpg 20210717_120141.jpg.gpg 20210717_125557.jpg.gpg 20210718_090712.jpg.gpg 20210718_123000.jpg.gpg 20210718_124022.jpg.gpg 20210718_124158.jpg.gpg bus.jpg.gpg cactus.jpg.gpg high-life.jpg.gpg swang.jpg.gpg".split(' ').forEach(async (imageUrl) => {
+    try {
+      const image = document.getElementById(imageUrl);
+      image.parentElement.setAttribute('aria-busy', "true");
+      const encodedImage = await fetch(imageUrl);
+      const buffer = await encodedImage.arrayBuffer();
+      const view = new Uint8Array(buffer);
+
+      const message = await openpgp.readMessage({ binaryMessage: view });
+
+      const decrypted = await openpgp.decrypt({
+	message: message,
+	passwords: [password],
+	format: 'binary'
+      });
+
+      const blob = new Blob([decrypted.data], { type: 'image/png'});
+      image.src = URL.createObjectURL(blob);
+      const parsed = await exifr.parse(blob, {tiff: false, xmp: true});
+      if (parsed) {
+	if (parsed.title) {
+	  image.parentElement.setAttribute('data-title', parsed.title);
+	}
+	if (parsed.description) {
+	  image.parentElement.setAttribute('data-description', parsed.description);
+	}
+      }
+      image.parentElement.setAttribute('aria-busy', "false");
+    } catch (e) {
+      console.log(e);
+    }
+  });
+})();
+</script>
+</body>
